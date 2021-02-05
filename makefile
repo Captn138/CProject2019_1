@@ -17,3 +17,6 @@ execute: exec chicago.txt menu
 
 clean:
 	rm *.o exec
+
+install:
+	sudo apt-get install make gcc
